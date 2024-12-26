@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tw-bg-opacity: 1;
+  --bg-white: rgb(255 255 255);
+  --bg-black: rgb(0 0 0);
+  --bg-primary: rgb(33 64 154);
+  --bg-blue: rgb(34 196 244);
+
+  --background: rgb(255, 255, 255);
+  --foreground: rgb(23, 23, 23);
+
+  --text-white: rgb(255 255 255);
+  --text-black: rgb(0 0 0);
+  --text-gray: rgb(77 77 77);
+  --text-orange: rgb(255 149 0);
+  --text-blue: rgb(33 64 154);
+  --text-primary: rgb(33 64 154);
+
+  --loading-grey: rgb(237, 237, 237);
+
+  --h-full: 100%;
+  --h-width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
